@@ -20,7 +20,8 @@ jobs:
       with:
         python-version: '3.8'
       env:
-          AGENT_TOOLSDIRECTORY: /Users/runner/hostedtoolcache
+          AGENT_TOOLSDIRECTORY: /Users/runner/hostedtoolcache'
+          LD_LIBRARY_PATH: /home/runner/actions-runner/_work/_tool/Python/3.8.12/x64/lib
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
