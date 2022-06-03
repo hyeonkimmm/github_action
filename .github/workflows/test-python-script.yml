@@ -22,3 +22,5 @@ jobs:
         sleep 5
         echo Goodbye World!
         whoami
+        pwd
+        python main.py
