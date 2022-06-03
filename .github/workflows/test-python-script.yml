@@ -23,4 +23,5 @@ jobs:
         echo Goodbye World!
         whoami
         pwd
+        pip install python
         python main.py
