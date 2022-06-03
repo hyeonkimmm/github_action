@@ -21,3 +21,4 @@ jobs:
         echo Hello World!
         sleep 5
         echo Goodbye World!
+        whoami
