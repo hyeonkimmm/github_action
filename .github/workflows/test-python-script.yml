@@ -13,7 +13,7 @@ on:
 
 jobs:
   build:
-    runs-on: hkim-Mac
+    runs-on: self-hosted
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v3
