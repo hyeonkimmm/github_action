@@ -14,10 +14,6 @@ on:
 jobs:
   build:
     runs-on: hkim-Mac
-    strategy:
-      # 뭔지 모르겠음.
-      # fail-fast: false
-
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v3
