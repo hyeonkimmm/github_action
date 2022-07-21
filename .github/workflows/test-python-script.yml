@@ -4,6 +4,7 @@
 name: 'test-python-hosted-runners'
 
 on:
+  if: github.repository == 'hyeonkimmm/github_action'  
   push:
     branches: [ main ]
   pull_request:
