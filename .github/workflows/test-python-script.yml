@@ -8,12 +8,9 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'hyeonkimmm/github_action'
+    if: github.repository == 'gripcorp/grip-ml-model'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v3
-      with:
-        python-version: '3.9'
-        cache: 'pip'
     - run: python3 main.py
